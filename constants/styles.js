@@ -1,11 +1,10 @@
 export const GlobalStyles = {
   colors: {
-    beige: "#6ebeb7",
-    lightBeige: "#05684d",
-    blue: "#bf230d",
-    darkBlue: "#5867cd",
+    beige: "#D8C4B6",
+    lightBeige: "#F5EFE7",
+    blue: "#9c4f4f",
+    darkBlue: "#552121",
     white: "#ffffff",
-    tintColor: "#2f95dc",
   },
 };
 

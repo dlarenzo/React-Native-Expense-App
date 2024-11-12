@@ -27,8 +27,38 @@ const DUMMY_EXPENSES = [
   },
   {
     id: "e5",
-    description: "Sunglasses",
-    amount: 59.99,
+    description: "Blouse",
+    amount: 22.57,
+    date: new Date("2024-8-19"),
+  },
+  {
+    id: "e6",
+    description: "Nike Shoes",
+    amount: 312.65,
+    date: new Date("2022-2-4"),
+  },
+  {
+    id: "e7",
+    description: "Wendy's Lunch",
+    amount: 24.99,
+    date: new Date("2024-8-16"),
+  },
+  {
+    id: "e8",
+    description: "Birthday Gift",
+    amount: 79.99,
+    date: new Date("2024-8-19"),
+  },
+  {
+    id: "e9",
+    description: "Gas",
+    amount: 73.12,
+    date: new Date("2024-8-16"),
+  },
+  {
+    id: "e10",
+    description: "Walmart Oil Change",
+    amount: 49.99,
     date: new Date("2024-8-19"),
   },
 ];

@@ -1,6 +1,5 @@
 import { Pressable, View, StyleSheet, Text } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-// import Ionicons from "react-native-vector-icons/Ionicons";
 
 function IconButton({ icon, size, color, onPress }) {
   return (
@@ -8,7 +7,7 @@ function IconButton({ icon, size, color, onPress }) {
       style={({ pressed }) => pressed && styles.pressed}
       onPress={onPress}
     >
-      <View style={styles.container}>
+      <View style={styles.buttonContainer}>
         <Text style={styles.text}>
           Add Expense
           <Ionicons name={icon} size={size} color={color} />
@@ -19,7 +18,7 @@ function IconButton({ icon, size, color, onPress }) {
 }
 
 const styles = StyleSheet.create({
-  container: {
+  buttonContainer: {
     borderRadius: 24,
     padding: 6,
     marginHorizontal: 8,
